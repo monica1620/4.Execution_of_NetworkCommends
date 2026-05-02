@@ -1,0 +1,73 @@
+Microsoft Windows [Version 10.0.26100.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\monic>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : saveetha.in
+   IPv6 Address. . . . . . . . . . . : 2403:8600:c090:42:0:4fc:9e6c:714c
+   Link-local IPv6 Address . . . . . : fe80::4949:17e7:c232:a3c%15
+   Autoconfiguration IPv4 Address. . : 169.254.175.50
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : fe80::eedd:24ff:fe3d:ced5%15
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\monic>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+80-E4-BA-8F-9F-D9   Media disconnected
+80-E4-BA-8F-9F-D5   \Device\Tcpip_{A9257A44-693E-4F32-B68D-F381F2CA3588}
+
+C:\Users\monic>255.255.0.0
+'255.255.0.0' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\monic>ping google.com
+
+Pinging google.com [2404:6800:4007:836::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:836::200e: time=263ms
+Reply from 2404:6800:4007:836::200e: time=357ms
+Request timed out.
+Reply from 2404:6800:4007:836::200e: time=682ms
+
+Ping statistics for 2404:6800:4007:836::200e:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 263ms, Maximum = 682ms, Average = 434ms
+
+C:\Users\monic>tracert google.com
+
+Tracing route to google.com [2404:6800:4007:836::200e]
+over a maximum of 30 hops:
+
+  1    57 ms    81 ms     8 ms  2403:8600:c090:42::1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4    70 ms    53 ms   199 ms  lcmaaa-az-in-x0e.1e100.net [2404:6800:4007:836::200e]
+
+Trace complete.
+
+C:\Users\monic>255.255.0.0255.255.0.0255.255.0.0^P
+'255.255.0.0255.255.0.0255.255.0.0' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\monic>255.255.0.0
