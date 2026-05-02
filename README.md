@@ -27,6 +27,7 @@ This commands includes
 <BR>
 
 ## Output
+[command exp4.txt](https://github.com/user-attachments/files/27296729/command.exp4.txt)
 
 ## Result
 Thus Execution of Network commands Performed 
